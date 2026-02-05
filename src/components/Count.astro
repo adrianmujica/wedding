@@ -10,7 +10,8 @@ const eventLocation = countdown.location;
 ---
 
 <section
-    class="py-24 px-6"
+    id="count"
+    class="py-32 px-6"
     style="
         background-color: var(--color-background);
         color: var(--color-accent);
@@ -27,14 +28,14 @@ const eventLocation = countdown.location;
         </p>
 
         <h2
-            class="font-display text-[clamp(2.5rem,6vw,4.5rem)] uppercase leading-tight"
+            class="text-[clamp(5.5rem,6vw,4.5rem)] uppercase leading-tight"
             style="color: var(--color-primary);"
         >
             {eventHeading}
         </h2>
 
         <p
-            class="max-w-2xl text-base sm:text-lg"
+            class="max-w-2xl text-xl"
             style="color: var(--color-text); opacity: 0.75;"
         >
             {eventMessage}
@@ -132,7 +133,7 @@ const eventLocation = countdown.location;
         </div>
 
         <div
-            class="text-sm uppercase tracking-[0.35em]"
+            class="text-xl uppercase tracking-[0.35em]"
             style="color: var(--color-accent);"
         >
             {eventLocation}

@@ -1,85 +1,91 @@
 hero:
-  tagline: "The wedding of"
-  title: "said yes!"
+  tagline: "El bodorrio de"
+  title: "Paz y Adrián"
   description: >
-    An editorial soirée in the heart of the city — bold florals, late-night vinyl,
-    and a guest list filled with our favorite people. Come for the vows, stay for
-    the midnight espresso martinis.
-  weekday: "Saturday"
-  dateDisplay: "21 · 06 · 2026"
-  location: "Mexico City • La Casa Azul"
+    Si estás por aqui es porque eres parte importante de nuestras vidas y queremos que nos acompañes en este día tan especial.
+  description2: >
+    Será un día para celebrar la vida y nuestro amor con todos nuestros seres queridos.
+  weekday: "Sábado"
+  dateDisplay: "25 · 07 · 2026"
+  location: "Casa Quintanilla • Arucas"
 
 story:
-  chapterLabel: "Chapter One"
-  heading: "Our Story"
+  chapterLabel: ""
+  heading: "Ceremonia y Celebración"
   body: |
-    We met on a crisp autumn afternoon, when a simple conversation blossomed into an inseparable friendship.
-    Over time, that friendship grew into love, and together we've shared adventures, dreams, and challenges.
-    Today, we celebrate not only our love, but also the family and friends who have joined us on this journey.
-  imageAsset: "wedshots/vadim-paripa-unsplash.jpg"
-  imageAlt: "Our story together"
+    Tanto la ceremonia como la celebración tendrán lugar en Casa Quintanilla, Arucas. Puedes elegir venir en tu propio vehículo, transporte público (hay una parada de guaguas justo en frente) o utilizar el servicio de guaguas que hemos reservado para mayor comodidad (cuando rellenes el formulario de confirmación de asistencia podrás elegir esta opción).
+  imageAsset: "wedshots/pazyadri.jpg"
+  imageAlt: "Ceremonia y Celebración"
   highlights:
-    - "💌 From friends to soulmates"
-    - "✈️ Adventures across continents"
-    - "💍 Engaged under autumn skies"
+    - title: "📍 Ubicación Casa Quintanilla"
+      url: "https://maps.app.goo.gl/B4wKoYQJVDaLAejaA"
+    - title: "🚌 Ubicación parada de guaguas"
+      url: "https://maps.app.goo.gl/bsG1YEsQRG9DQzUr9"
+    - title: "🚕 Radio Taxi Arucas: +34 928 60 00 95 / WhatsApp 928 46 00 00"
 
 schedule:
-  eyebrow: "Our Celebration"
-  title: "Wedding Day Schedule"
+  eyebrow: ""
+  title: "Itinerario del día"
   description: >
-    Follow along to savor every cherished moment with us—from vows to the last sparkling toast.
+    Desde la ceremonia hasta la despedida, aquí puedes ver cómo se desarrollará nuestro día especial. ¡Prepárate para celebrar con nosotros!
   events:
-    - number: "01"
-      label: "Ceremony"
-      title: "Ceremony & Vows"
+    - number: "16:45"
+      label: ""
+      title: "Bienvenida"
       description: >
-        Gather on the chapel lawn for an intimate ceremony beneath the olive trees. Ushers are ready to guide you to your seat.
+        Para cumplir con el cronográma rogamos puntualidad para una vez comience la ceremonia esté todo el mundo acomodado.
       details:
-        - "Prelude music begins at 3:40 PM"
-        - "Rings & vows at golden hour"
-        - "Quiet shuttle service begins at 3:15 PM"
-    - number: "02"
-      label: "Welcome"
-      title: "Garden Cocktail Hour"
+        -
+    - number: "17:00"
+      label: ""
+      title: "Ceremonia"
       description: >
         Sip seasonal cocktails, enjoy live jazz, and mingle beneath the café lights as we transition into the celebration.
       details:
         - "Signature drink: Lavender Paloma"
         - "String trio taking requests"
         - "Canapés served throughout the garden"
-    - number: "03"
-      label: "Dinner"
-      title: "Candlelit Reception"
+    - number: "18:00"
+      label: ""
+      title: "Cocktail"
       description: >
         Savor a farm-to-table feast paired with curated wines while heartfelt toasts and stories fill the room.
       details:
         - "Dinner call at 6:25 PM"
         - "Toasts begin after the second course"
         - "Dessert trio plated at 8:10 PM"
-    - number: "04"
-      label: "Celebration"
-      title: "First Dance & Party"
+    - number: "19:00"
+      label: ""
+      title: "Concierto y Baile"
       description: >
         Kick off the dance floor with our first dance, then stay on your feet for live DJ sets, photo moments, and late-night bites.
       details:
         - "First dance at 8:50 PM"
         - "Dessert lounge opens at 9:30 PM"
         - "Photo booth until 11:30 PM"
-    - number: "05"
-      label: "Farewell"
-      title: "Sparkler Send-Off"
+    - number: "20:30"
+      label: ""
+      title: "Cena "
       description: >
         Close the night with a sparkling farewell and a final toast to forever. Shuttles depart every 20 minutes.
       details:
         - "Grab a sparkler by the garden gate"
         - "Final toast at 11:55 PM"
         - "Last shuttle leaves at 12:30 AM"
-
+    - number: "22:00"
+      label: ""
+      title: "Fiesta"
+      description: >
+        Close the night with a sparkling farewell and a final toast to forever. Shuttles depart every 20 minutes.
+      details:
+        - "Grab a sparkler by the garden gate"
+        - "Final toast at 11:55 PM"
+        - "Last shuttle leaves at 12:30 AM"
 gallery:
-  eyebrow: "Gallery"
-  title: "Scroll through the memories"
+  eyebrow: ""
+  title: "Desliza entre nuestros recuerdos"
   description: >
-    A curated strip of the moments we never want to forget—from the first look to the final sparkler.
+    Aquí puedes echar un vistazo a algunos de los momentos más especiales que hemos compartido juntos.
   images:
     - asset: "wedshots/jakob-owens-unsplash.jpg"
       alt: "First look on the veranda"
@@ -107,9 +113,28 @@ cards:
     href: "/wishlist"
 
 countdown:
-  label: "Wedding Weekend Countdown"
-  heading: 'Countdown to "We Do"'
+  label: ""
+  heading: 'Cuenta atrás'
   message: >
-    Every sunrise brings us closer to the moment we gather together. Save the date and get ready for an unforgettable celebration.
-  target: "2026-06-21T21:00:00Z"
-  location: "Mexico City • La Casa Azul"
+    ¡No podemos esperar para celebrar con ustedes!
+  target: "2026-07-27T17:00:00Z"
+  location: "Casa Quintanilla • Arucas"
+
+dressCode:
+  title: "Código de vestimenta"
+  imageAsset: "wedshots/dressCode.jpg"
+  description: >
+    Para nuestro gran día, queremos que nuestros invitados se sientan cómodos y a la vez luzcan increíbles, así que aquí les dejamos algunos detalles sobre el dress code.
+    
+confirmation:
+  chapterLabel: ""
+  heading: "Confirmar asistencia"
+  body: |
+    Para que podamos organizar todo de la mejor manera posible, te pedimos que confirmes tu asistencia lo antes posible. Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos.
+  description: >
+    Es importante que cada invitado rellene el formulario de forma individual. Esto nos ayudará a planificar mejor la logística del evento.
+  imageAsset: "wedshots/confirmation.jpg"
+  imageAlt: "Confirmar asistencia"
+  highlights:
+    - title: "📝 Haz clic aquí para confirmar tu asistencia"
+      url: "https://docs.google.com/forms/d/e/1FAIpQLScGB4WkXvsdm_Gu3EkZxk3G6GW-q8y22TZGOlMAPmFyifCdRg/viewform?usp=header"

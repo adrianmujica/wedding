@@ -1,0 +1,237 @@
+---
+---
+
+<nav class="fixed top-0 left-0 right-0 z-50 bg-opacity-95 shadow-md" style="background-color: var(--color-background);">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+        <!-- Hamburger Menu Button (Mobile only) -->
+        <button 
+            id="hamburger-btn" 
+            class="md:hidden flex flex-col gap-1.5 p-2"
+            style="background: none; border: none; cursor: pointer;"
+            aria-label="Toggle menu"
+        >
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+
+        <!-- Desktop Menu -->
+        <ul class="hidden md:flex flex-wrap justify-center gap-4 sm:gap-8 text-sm sm:text-base flex-1">
+            <li>
+                <a href="#hero" class="nav-link transition-colors" style="color: var(--color-primary);">
+                    Inicio
+                </a>
+            </li>
+            <li>
+                <a href="#story" class="nav-link transition-colors" style="color: var(--color-primary);">
+                    Ceremonia y celebración
+                </a>
+            </li>
+            <li>
+                <a href="#dressCode" class="nav-link transition-colors" style="color: var(--color-primary);">
+                    Código de vestimenta
+                </a>
+            </li>
+                <li>
+                <a href="#confirmation" class="nav-link transition-colors" style="color: var(--color-primary);">
+                    Confirmar asistencia
+                </a>
+            </li>
+            <li>
+                <a href="#schedule" class="nav-link transition-colors" style="color: var(--color-primary);">
+                    Itinerario
+                </a>
+            </li>
+            <li>
+                <a href="#gallery" class="nav-link transition-colors" style="color: var(--color-primary);">
+                    Galeria
+                </a>
+            </li>
+            <li>
+                <a href="#count" class="nav-link transition-colors" style="color: var(--color-primary);">
+                    Cuenta atrás
+                </a>
+            </li>
+        </ul>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden absolute top-full left-0 right-0 md:hidden" style="background-color: var(--color-background);">
+            <ul class="flex flex-col gap-0 text-sm">
+                <li class="border-b border-opacity-10" style="border-color: var(--color-primary);">
+                    <a href="#hero" class="nav-link mobile-nav-link block px-6 py-4 transition-colors" style="color: var(--color-primary);">
+                        Inicio
+                    </a>
+                </li>
+                <li class="border-b border-opacity-10" style="border-color: var(--color-primary);">
+                    <a href="#story" class="nav-link mobile-nav-link block px-6 py-4 transition-colors" style="color: var(--color-primary);">
+                        Ceremonia y celebración
+                    </a>
+                </li>
+                 <li class="border-b border-opacity-10" style="border-color: var(--color-primary);">
+                    <a href="#confirmation" class="nav-link mobile-nav-link block px-6 py-4 transition-colors" style="color: var(--color-primary);">
+                        Confirmar asistencia
+                    </a>
+                </li>
+                <li class="border-b border-opacity-10" style="border-color: var(--color-primary);">
+                    <a href="#schedule" class="nav-link mobile-nav-link block px-6 py-4 transition-colors" style="color: var(--color-primary);">
+                        Itinerario
+                    </a>
+                </li>
+                <li class="border-b border-opacity-10" style="border-color: var(--color-primary);">
+                    <a href="#gallery" class="nav-link mobile-nav-link block px-6 py-4 transition-colors" style="color: var(--color-primary);">
+                        Galeria
+                    </a>
+                </li>
+                <li class="border-b border-opacity-10" style="border-color: var(--color-primary);">
+                    <a href="#count" class="nav-link mobile-nav-link block px-6 py-4 transition-colors" style="color: var(--color-primary);">
+                        Cuenta atrás
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<style>
+    .nav-link {
+        font-weight: 500;
+        letter-spacing: 0.05em;
+        text-decoration: none;
+        padding-bottom: 2px;
+        border-bottom: 2px solid transparent;
+        display: inline-block;
+        transition: all 0.3s ease;
+    }
+
+    .nav-link:hover {
+        border-bottom-color: var(--color-accent);
+        opacity: 0.8;
+    }
+
+    .nav-link.active {
+        border-bottom-color: var(--color-accent);
+        opacity: 1;
+    }
+
+    nav {
+        backdrop-filter: blur(10px);
+    }
+
+    .hamburger-line {
+        display: block;
+        width: 24px;
+        height: 2px;
+        background-color: var(--color-primary);
+        transition: all 0.3s ease;
+        border-radius: 2px;
+    }
+
+    #hamburger-btn.active .hamburger-line:nth-child(1) {
+        transform: rotate(45deg) translate(8px, 8px);
+    }
+
+    #hamburger-btn.active .hamburger-line:nth-child(2) {
+        opacity: 0;
+    }
+
+    #hamburger-btn.active .hamburger-line:nth-child(3) {
+        transform: rotate(-45deg) translate(8px, -8px);
+    }
+
+    .mobile-nav-link {
+        display: block;
+        text-decoration: none;
+        border-bottom: none !important;
+    }
+
+    .mobile-nav-link:hover {
+        opacity: 0.7;
+    }
+
+    #mobile-menu {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+<script>
+    // Hamburger menu toggle
+    const hamburgerBtn = document.getElementById('hamburger-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+    if (hamburgerBtn && mobileMenu) {
+        hamburgerBtn.addEventListener('click', () => {
+            hamburgerBtn.classList.toggle('active');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close menu when a link is clicked
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                hamburgerBtn.classList.remove('active');
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!hamburgerBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
+                hamburgerBtn.classList.remove('active');
+                mobileMenu.classList.add('hidden');
+            }
+        });
+    }
+
+    // Smooth scroll behavior
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                console.log('Scrolling to:', target);
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+
+    // Update active nav link on scroll
+    function updateActiveLink() {
+        const sections = ['hero', 'story', 'dressCode', 'confirmation', 'schedule', 'gallery', 'count'];
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        let current = '';
+        const scrollPos = window.scrollY + 150;
+        const pageHeight = document.documentElement.scrollHeight;
+        const viewportHeight = window.innerHeight;
+        
+        // Check if we're at the bottom of the page
+        const isAtBottom = window.scrollY + viewportHeight >= pageHeight - 100;
+
+        for (const section of sections) {
+            const element = document.getElementById(section);
+            if (element) {
+                if (element.offsetTop <= scrollPos) {
+                    current = section;
+                }
+            }
+        }
+
+        // If at bottom and count section exists, make count active
+        if (isAtBottom && document.getElementById('count')) {
+            current = 'count';
+        }
+
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${current}`) {
+                link.classList.add('active');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', updateActiveLink);
+    updateActiveLink(); // Initial call
+</script>

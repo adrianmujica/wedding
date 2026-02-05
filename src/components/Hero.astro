@@ -19,13 +19,13 @@ const { hero } = getEventData();
         >
             <div class="space-y-6 text-left md:max-w-3xl">
                 <p
-                    class="text-xs uppercase tracking-[0.65em]"
+                    class="text-lg uppercase tracking-[0.65em]"
                     style="color: var(--color-secondary); opacity: 0.7;"
                 >
                     {hero.tagline}
                 </p>
                 <h1
-                    class="font-display text-[clamp(3.5rem,8vw,6.5rem)] uppercase leading-[0.88] tracking-tight drop-shadow-md"
+                    class="text-[clamp(3.5rem,8vw,4.5rem)] uppercase leading-[0.88] tracking-tight drop-shadow-md"
                     id="hero-heading"
                     data-hero-title={hero.title}
                     style="color: var(--color-background);"
@@ -33,16 +33,22 @@ const { hero } = getEventData();
                     {hero.title}
                 </h1>
                 <p
-                    class="max-w-2xl text-base leading-relaxed md:text-lg"
+                    class="max-w-2xl mb-2 text-base leading-relaxed md:text-xl"
                     style="color: var(--color-secondary); opacity: 0.9;"
                 >
                     {hero.description}
+                </p>
+                  <p
+                    class="max-w-2xl text-base leading-relaxed md:text-xl"
+                    style="color: var(--color-secondary); opacity: 0.9;"
+                >
+                    {hero.description2}
                 </p>
             </div>
 
             <div class="text-left md:text-right">
                 <p
-                    class="text-xs uppercase tracking-[0.45em]"
+                    class="text-lg uppercase tracking-[0.45em]"
                     style="color: var(--color-secondary); opacity: 0.7;"
                 >
                     {hero.weekday}
@@ -54,7 +60,7 @@ const { hero } = getEventData();
                     {hero.dateDisplay}
                 </p>
                 <p
-                    class="mt-4 text-sm font-semibold uppercase tracking-[0.35em]"
+                    class="mt-4 text-lg font-semibold uppercase tracking-[0.35em]"
                     style="color: var(--color-secondary); opacity: 0.7;"
                 >
                     {hero.location}

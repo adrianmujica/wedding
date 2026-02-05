@@ -6,6 +6,7 @@ const events = schedule.events ?? [];
 ---
 
 <section
+    id="schedule"
     style="
         background-color: var(--color-primary);
         color: var(--color-secondary);
@@ -20,13 +21,13 @@ const events = schedule.events ?? [];
                 {schedule.eyebrow}
             </p>
             <h2
-                class="mt-4 text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl"
+                class="mt-4 text-4xl tracking-tight sm:text-5xl lg:text-6xl"
                 style="color: var(--color-secondary);"
             >
                 {schedule.title}
             </h2>
             <p
-                class="mt-6 text-lg"
+                class="mt-6 text-xl"
                 style="color: var(--color-secondary); opacity: 0.8;"
             >
                 {schedule.description}
@@ -45,7 +46,7 @@ const events = schedule.events ?? [];
                     >
                         <div class="grid gap-10 lg:grid-cols-5 lg:items-start lg:gap-0">
                             <span
-                                class="text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl"
+                                class="text-5xl tracking-tight sm:text-6xl lg:text-7xl"
                                 style="color: var(--color-secondary);"
                             >
                                 {event.number}
@@ -62,7 +63,7 @@ const events = schedule.events ?? [];
                                         {event.label}
                                     </p>
                                     <h3
-                                        class="text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl"
+                                        class="text-4xl tracking-tight sm:text-5xl lg:text-6xl"
                                         style="color: var(--color-secondary);"
                                     >
                                         {event.title}

@@ -1,0 +1,75 @@
+---
+import { getEventData } from "../data/eventData";
+import { Image } from "astro:assets";
+
+
+const { dressCode } = getEventData();
+
+const imageAlt = "Our story together";
+
+const storyImageModules = import.meta.glob("../assets/**/*", {
+    eager: true,
+    import: "default",
+}) as Record<string, ImageMetadata>;
+
+const resolveStoryImage = (filename?: string) => {
+    if (!filename) return null;
+    const normalized = filename.replace(/^\.\?\//, "").replace(/^assets\//, "");
+    const match = Object.entries(storyImageModules).find(([path]) => {
+        const withoutPrefix = path.replace("../assets/", "");
+        return (
+            withoutPrefix === normalized ||
+            withoutPrefix.endsWith(`/${normalized}`) ||
+            path.endsWith(`/${normalized}`)
+        );
+    });
+
+    return match?.[1] ?? null;
+};
+console.log(dressCode.imageAsset);
+const storyImage = resolveStoryImage(dressCode.imageAsset) ?? null;
+---
+
+<section
+    id="dressCode"
+    class="py-38 px-6"
+    style="background-color: var(--color-primary); color: var(--color-secondary);"
+>
+    <div
+        class="mx-auto flex max-w-6xl flex-col gap-12 md:flex-row md:items-center"
+    >
+        <div class="md:w-8/12">
+                <div class="relative rounded-4xl border p-4 backdrop-blur">
+                    <Image
+                        src={storyImage}
+                        alt={imageAlt}
+                        class="h-full w-full rounded-3xl object-cover"
+                        loading="lazy"
+                        format="webp"
+                    />
+                </div>
+            </div>
+
+        <div class="relative text-right justify-items-center">
+            <div class="md:w-7/12 space-y-6">
+            <p
+                class="text-sm uppercase tracking-[0.35em] font-(--font-sans)"
+                style="color: var(--color-primary); opacity: 0.7;"
+            >
+            </p>
+            <h2
+                class="text-4xl sm:text-5xl tracking-tight font-(--font-display)"
+            >
+                {dressCode.title}
+            </h2>
+            <p
+                class="text-xl leading-relaxed whitespace-pre-line font-(--font-sans)"
+            >
+                {dressCode.description}
+            </p>
+        </div>
+            
+        </div>
+       
+    </div>
+</section>

@@ -5,6 +5,7 @@ export interface HeroContent {
   tagline: string;
   title: string;
   description: string;
+  description2: string;
   weekday: string;
   dateDisplay: string;
   location: string;
@@ -16,7 +17,12 @@ export interface StoryContent {
   body: string;
   imageAsset?: string;
   imageAlt: string;
-  highlights: string[];
+  highlights: Highlight[];
+}
+
+export interface Highlight {
+  title: string;
+  url: string;
 }
 
 export interface ScheduleEvent {
@@ -24,6 +30,7 @@ export interface ScheduleEvent {
   label: string;
   title: string;
   description: string;
+  description2: string;
   details: string[];
 }
 
@@ -61,6 +68,22 @@ export interface CountdownContent {
   location: string;
 }
 
+export interface DressCodeContent {
+  title: string;
+  imageAsset: string;
+  description: string;
+}
+
+export interface ConfirmationContent {
+  chapterLabel: string;
+  heading: string;
+  body: string;
+  description: string;
+  imageAsset: string;
+  imageAlt: string;
+  highlights: Highlight[];
+}
+
 export interface EventContent {
   hero: HeroContent;
   story: StoryContent;
@@ -68,6 +91,8 @@ export interface EventContent {
   gallery: GalleryContent;
   cards: CardContent[];
   countdown: CountdownContent;
+  dressCode: DressCodeContent;
+  confirmation: ConfirmationContent;
 }
 
 const parsedEventData = yaml.parse(eventSource) as EventContent;
