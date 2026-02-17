@@ -130,7 +130,7 @@ confirmation:
   chapterLabel: ""
   heading: "Confirmar asistencia"
   body: |
-    Para que podamos organizar todo de la mejor manera posible, te pedimos que confirmes tu asistencia lo antes posible. Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos.
+    Para confirmar tu asistencia debes rellenar el formulario, así podremos organizar todo de la mejor manera posible, te pedimos que por favor confirmes tu asistencia lo antes posible. Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos.
   description: >
     Es importante que cada invitado rellene el formulario de forma individual. Esto nos ayudará a planificar mejor la logística del evento.
   imageAsset: "wedshots/confirmation.jpg"
