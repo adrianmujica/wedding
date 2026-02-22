@@ -56,6 +56,9 @@ const storyImage = resolveStoryImage(confirmation.imageAsset) ?? null;
             >
                 {confirmation.body}
             </p>
+            <p class="text-xl" style="color: var(--color-primary); opacity: 0.8;">
+                {confirmation.account}
+            </p>
             <p class="font-bold text-xl" style="color: var(--color-primary); opacity: 0.8;">
                 {confirmation.description}
             </p>
@@ -67,8 +70,8 @@ const storyImage = resolveStoryImage(confirmation.imageAsset) ?? null;
                 {
                     highlights.map((highlight) => (
                         <span
-                            class="inline-flex items-center gap-2 rounded-full border px-4 py-2"
-                            style="border-color: var(--color-text-dark);"
+                            class="inline-flex items-center gap-2 rounded-full font-bold border px-4 py-2"
+                            style="border-color: var(--color-accent); background: var(--color-primary); color: white; padding: 1rem"
                         >
                             <a href={highlight.url} target="_blank">{highlight.title}</a>
                         </span>
@@ -79,7 +82,7 @@ const storyImage = resolveStoryImage(confirmation.imageAsset) ?? null;
 
         <div class="md:w-5/12">
             <div class="relative">
-                <div class="relative rounded-4xl border p-4 backdrop-blur">
+                <div class="relative backdrop-blur">
                     <Image
                         src={storyImage}
                         alt={imageAlt}

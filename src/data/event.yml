@@ -13,7 +13,7 @@ story:
   chapterLabel: ""
   heading: "Ceremonia y Celebración"
   body: |
-    Tanto la ceremonia como la celebración tendrán lugar en Casa Quintanilla, Arucas. Puedes elegir venir en tu propio vehículo, transporte público (hay una parada de guaguas justo en frente) o utilizar el servicio de guaguas que hemos reservado para mayor comodidad (cuando rellenes el formulario de confirmación de asistencia podrás elegir esta opción).
+    Tanto la ceremonia como la celebración tendrán lugar en Casa Quintanilla, Arucas. Puedes venir en tu propio vehículo (hay zona de aparcamiento), transporte público (hay una parada de guaguas justo en frente) o utilizar el servicio de guaguas que hemos reservado para mayor comodidad (cuando rellenes el formulario de confirmación de asistencia podrás elegir esta opción).
   imageAsset: "wedshots/pazyadri.jpg"
   imageAlt: "Ceremonia y Celebración"
   highlights:
@@ -27,9 +27,9 @@ schedule:
   eyebrow: ""
   title: "Itinerario del día"
   description: >
-    Desde la ceremonia hasta la despedida, aquí puedes ver cómo se desarrollará nuestro día especial. ¡Prepárate para celebrar con nosotros!
+    ¡Prepárate para celebrar con nosotros!
   events:
-    - number: "16:45"
+    - number: "16:30"
       label: ""
       title: "Bienvenida"
       description: >
@@ -40,47 +40,36 @@ schedule:
       label: ""
       title: "Ceremonia"
       description: >
-        Sip seasonal cocktails, enjoy live jazz, and mingle beneath the café lights as we transition into the celebration.
+        La ceremonia será informal, estamos celebrando nuestro amor con todos nuestros seres queridos. Si quieres participar de alguna manera en el cuestionario tienes más información. ¡Nosotros estaremos encantados!
       details:
-        - "Signature drink: Lavender Paloma"
-        - "String trio taking requests"
-        - "Canapés served throughout the garden"
+        -
     - number: "18:00"
       label: ""
       title: "Cocktail"
       description: >
-        Savor a farm-to-table feast paired with curated wines while heartfelt toasts and stories fill the room.
       details:
-        - "Dinner call at 6:25 PM"
-        - "Toasts begin after the second course"
-        - "Dessert trio plated at 8:10 PM"
+        - 
     - number: "19:00"
       label: ""
-      title: "Concierto y Baile"
+      title: "Concierto"
       description: >
-        Kick off the dance floor with our first dance, then stay on your feet for live DJ sets, photo moments, and late-night bites.
+        Antes de cenar, para abrir apetito, nada mejor que música en directo con un grupo muy especial.
       details:
-        - "First dance at 8:50 PM"
-        - "Dessert lounge opens at 9:30 PM"
-        - "Photo booth until 11:30 PM"
+        - 
     - number: "20:30"
       label: ""
       title: "Cena "
       description: >
-        Close the night with a sparkling farewell and a final toast to forever. Shuttles depart every 20 minutes.
       details:
-        - "Grab a sparkler by the garden gate"
-        - "Final toast at 11:55 PM"
-        - "Last shuttle leaves at 12:30 AM"
+        - 
     - number: "22:00"
       label: ""
-      title: "Fiesta"
+      title: "Fiesta y perreo"
       description: >
-        Close the night with a sparkling farewell and a final toast to forever. Shuttles depart every 20 minutes.
+        ¡Hasta abajo!
       details:
-        - "Grab a sparkler by the garden gate"
-        - "Final toast at 11:55 PM"
-        - "Last shuttle leaves at 12:30 AM"
+        - "Recena"
+        - "Fin de la fiesta 4:00 AM"
 gallery:
   eyebrow: ""
   title: "Desliza entre nuestros recuerdos"
@@ -124,16 +113,19 @@ dressCode:
   title: "Código de vestimenta"
   imageAsset: "wedshots/dressCode.jpg"
   description: >
-    Para nuestro gran día, queremos que nuestros invitados se sientan cómodos y a la vez luzcan increíbles, así que aquí les dejamos algunos detalles sobre el dress code.
-    
+    Para nuestro gran día, queremos que los invitados se sientan cómodos y a la vez luzcan increíbles, aquí les dejamos algunos detalles sobre el código de vestimenta.
+  description2: >
+    Vestimenta semiformal. Ven elegante... pero no olvides un calzado cómodos. ¡La pista de baile nos espera!.  
 confirmation:
   chapterLabel: ""
   heading: "Confirmar asistencia"
   body: |
-    Para confirmar tu asistencia debes rellenar el formulario, así podremos organizar todo de la mejor manera posible, te pedimos que por favor confirmes tu asistencia lo antes posible. Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos.
+    Para confirmar tu asistencia debes rellenar el formulario, así podremos organizar todo de la mejor manera posible. T  e pedimos que por favor confirmes tu asistencia lo antes posible. Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos.
+  account: >
+    Si quieres tener un detalle con nosotros, puedes hacerlo aquí, IBAN: ESXX XXXX XXXX XXXX XXXX XXXX
   description: >
-    Es importante que cada invitado rellene el formulario de forma individual. Esto nos ayudará a planificar mejor la logística del evento.
-  imageAsset: "wedshots/confirmation.jpg"
+    Es importante que cada invitado rellene el formulario de forma individual. Esto nos ayudará a planificar mejor la logística del evento.    
+  imageAsset: "wedshots/confirmation.png"
   imageAlt: "Confirmar asistencia"
   highlights:
     - title: "📝 Haz clic aquí para confirmar tu asistencia"

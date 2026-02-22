@@ -72,12 +72,14 @@ export interface DressCodeContent {
   title: string;
   imageAsset: string;
   description: string;
+  description2: string;
 }
 
 export interface ConfirmationContent {
   chapterLabel: string;
   heading: string;
   body: string;
+  account: string;
   description: string;
   imageAsset: string;
   imageAlt: string;
