@@ -40,7 +40,7 @@ schedule:
       label: ""
       title: "Ceremonia"
       description: >
-        La ceremonia será informal, estamos celebrando nuestro amor con todos nuestros seres queridos. Si quieres participar de alguna manera en el cuestionario tienes más información. ¡Nosotros estaremos encantados!
+        La ceremonia será informal, estamos celebrando nuestro amor con todos nuestros seres queridos. Si quieres participar de alguna manera, en el cuestionario tienes más información. ¡Nosotros estaremos encantados!
       details:
         -
     - number: "18:00"
@@ -115,16 +115,16 @@ dressCode:
   description: >
     Para nuestro gran día, queremos que los invitados se sientan cómodos y a la vez luzcan increíbles, aquí les dejamos algunos detalles sobre el código de vestimenta.
   description2: >
-    Vestimenta semiformal. Ven elegante... pero no olvides un calzado cómodos. ¡La pista de baile nos espera!.  
+    Vestimenta semiformal, encontrarás mas info en el formulario de confirmación. Ven elegante... no olvides un calzado cómodos. ¡La pista de baile nos espera!.  
 confirmation:
   chapterLabel: ""
   heading: "Confirmar asistencia"
   body: |
-    Para confirmar tu asistencia debes rellenar el formulario, así podremos organizar todo de la mejor manera posible. T  e pedimos que por favor confirmes tu asistencia lo antes posible. Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos.
+    Para confirmar tu asistencia es obligatorio rellenar el formulario, así podremos organizar todo de la mejor manera posible. Te pedimos que por favor confirmes tu asistencia lo antes posible, la fecha límite de confirmación es el 25/06/26. Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos.
   account: >
-    Si quieres tener un detalle con nosotros, puedes hacerlo aquí, IBAN: ESXX XXXX XXXX XXXX XXXX XXXX
+    Si quieres tener un detalle con nosotros, puedes hacerlo aquí, IBAN: ES4800730100550683729072
   description: >
-    Es importante que cada invitado rellene el formulario de forma individual. Esto nos ayudará a planificar mejor la logística del evento.    
+    Importante: el formulario debe ser rellenado por cada invitado, los peques también. Esto nos ayudará a planificar mejor la logística del evento.    
   imageAsset: "wedshots/confirmation.png"
   imageAlt: "Confirmar asistencia"
   highlights:

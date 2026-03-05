@@ -76,11 +76,11 @@ const events = schedule.events ?? [];
                                     {event.description}
                                 </p>
                                 <ul
-                                    class="space-y-3 text-sm sm:text-base"
+                                    class="space-y-3 text-xl"
                                     style="color: var(--color-secondary); opacity: 0.8;"
                                 >
-                                    {event.details.map((detail) => (
-                                        <li class="flex items-start gap-3 leading-relaxed">
+                                    {event.details.filter((f) => !!f).map((detail) => (
+                                        <li class="flex items-center gap-3 leading-relaxed">
                                             <span
                                                 class="mt-1 inline-block h-1.5 w-1.5 rounded-full"
                                                 style="background: var(--color-accent); opacity: 0.5;"
