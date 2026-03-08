@@ -74,22 +74,20 @@ gallery:
   eyebrow: ""
   title: "Desliza entre nuestros recuerdos"
   description: >
-    Aquí puedes echar un vistazo a algunos de los momentos más especiales que hemos compartido juntos.
+
   images:
-    - asset: "wedshots/jakob-owens-unsplash.jpg"
-      alt: "First look on the veranda"
-    - asset: "wedshots/leonardo-miranda-unsplash.jpg"
-      alt: "Bridal bouquet close-up"
-    - asset: "wedshots/nathan-dumlao-2-unsplash.jpg"
-      alt: "Couple walking through the garden"
-    - asset: "wedshots/nathan-dumlao-unsplash.jpg"
-      alt: "Sunset toast with friends"
-    - asset: "wedshots/nikita-shirokov-unsplash.jpg"
+    - asset: "wedshots/foto0.jpeg"
+      alt: ""
+    - asset: "wedshots/foto2.jpeg"
+      alt: ""
+    - asset: "wedshots/foto1.jpeg"
+      alt: ""
+    - asset: "wedshots/foto4.jpeg"
+      alt: ""
+    - asset: "wedshots/foto5.jpeg"
       alt: "First dance candid"
-    - asset: "wedshots/sandy-millar-unsplash.jpg"
-      alt: "Bridal party cheering"
-    - asset: "wedshots/vadim-paripa-unsplash.jpg"
-      alt: "Sparkler send-off moment"
+    - asset: "foto3.png"
+      alt: ""
 
 cards:
   - imageAlt: "RSVP"
@@ -113,14 +111,14 @@ dressCode:
   title: "Código de vestimenta"
   imageAsset: "wedshots/dressCode.jpg"
   description: >
-    Para nuestro gran día, queremos que los invitados se sientan cómodos y a la vez luzcan increíbles, aquí les dejamos algunos detalles sobre el código de vestimenta.
+    Para nuestro gran día, queremos que los invitados se sientan cómodos y a la vez luzcan increíbles.
   description2: >
-    Vestimenta semiformal, encontrarás mas info en el formulario de confirmación. Ven elegante... no olvides un calzado cómodos. ¡La pista de baile nos espera!.  
+    El código de vestimenta es semiformal, encontrarás mas info en el formulario de confirmación. Ven elegante... no olvides un calzado cómodo. ¡La pista de baile nos espera!.  
 confirmation:
   chapterLabel: ""
   heading: "Confirmar asistencia"
   body: |
-    Para confirmar tu asistencia es obligatorio rellenar el formulario, así podremos organizar todo de la mejor manera posible. Te pedimos que por favor confirmes tu asistencia lo antes posible, la fecha límite de confirmación es el 25/06/26. Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos.
+    Para confirmar tu asistencia es obligatorio rellenar el formulario, así podremos organizar todo de la mejor manera posible. Te pedimos que, por favor, confirmes tu asistencia lo antes posible. La fecha límite de confirmación es el 10/06/26. Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos.
   account: >
     Si quieres tener un detalle con nosotros, puedes hacerlo aquí, IBAN: ES4800730100550683729072
   description: >
